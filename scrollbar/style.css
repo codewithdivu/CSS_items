@@ -1,0 +1,22 @@
+body {
+  height: 400vh;
+  width: 200vw;
+}
+
+::-webkit-scrollbar {
+  width: 25px;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #232943;
+  background-color: #090a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: linear-gradient(45deg, #06dee1, #79ff6c);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, blue, pink);
+}
