@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+  grid-template-columns: 30fr 70fr;
+  grid-template-areas:
+    "Header  Header"
+    "Sidebar Main"
+    ".       Footer";
+  /* gap: 10px; */
+  border: 3px solid black;
+  height: 100vh;
+}
+
+.box {
+  background-color: gold;
+  border: 2px solid black;
+}
+
+.box-a {
+  grid-area: Header;
+}
+.box-b {
+  grid-area: Sidebar;
+}
+.box-c {
+  grid-area: Main;
+}
+.box-d {
+  grid-area: Footer;
+}
