@@ -73,7 +73,8 @@ div:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* animation: colorAnimate 3s ease-in-out 1s infinite alternate; */
+  /* border-radius: 50%; */
+  animation: colorAnimate 3s ease-in-out 1s infinite alternate;
   /* animationName duration timing-fun delay iterationCount direction */
   animation-name: colorAnimate;
   animation-duration: 3s;
@@ -83,7 +84,7 @@ div:hover {
   animation-direction: alternate;
 }
 
-@keyframes colorAnimate {
+/* @keyframes colorAnimate {
   from {
     background-color: blue;
     left: 0px;
@@ -93,7 +94,7 @@ div:hover {
     font-size: 40px;
     left: 500px;
   }
-}
+} */
 @keyframes colorAnimate {
   0% {
     background-color: blue;
